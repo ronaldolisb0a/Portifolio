@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronaldo Lisboa - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/certificados.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">RL</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Hello,</p>
+          <h1>Sou o Ronaldo Lisboa</h1>
+          <h2>Desenvolvedor Front-end</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/ronaldo-lisboa-40a878234" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5581997043134" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/prronaldolisboa" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/pr.ronaldolisboa/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./src/imagens/RLSS.jpg" alt="foto do perfil do Ronaldo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/RLS.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá!
+            </p>
+          <p><strong>Me chamo Ronaldo Lisboa e sou um desenvolvedor front-end em
+              formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Meu desafio todos os dias é sempre melhorar minhas habilidades e aumentar meu potencial, buscando novos conhecimentos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Tenho um grande desejo de ajudar as pessoas com seu início na programação e espero contribuir com a comunidade o quanto antes.
+          </p>
+
+          <p>
+            Ah, Eu sou Pastor, casado e tenho uma filha de 3 anos, sou apaixonado por jogos 🎮, gosto de conversar sobre filmes e séries que assisto, então se dou match com sua equipe, pode ter certeza que vou amar trabalhar com você. 💙
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="./src/imagens/Currículo-RRLS - ADS - LINKss.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p> Conhecimento sólido em JS para desenvolvimento de código limpo, como exemplo: Funções, Arrays, Callbakcs, entre outros!</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p> Com conhecimento de estrutura e tags organizadas, facilitando manutenção e leitura!</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Boa base de estilização com visuais modernos e paginas responsivas!</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p> Ferramenta que utilizo para armazenar e compartilhar meus projetos com a comunidade!</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Conhecimento de versionamento de código para trabalhos em equipe!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://prronaldolisboa.github.io/mini-portfolio/" target="_blank">
+            <img src="./src/imagens/PROJETO.1.png" alt="mini-portfolio" />
+            <h3>Mini Portfolio</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML e CSS com responsividade para aparelhos menores.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://prronaldolisboa.github.io/Gerador-de-senha./">
+            <img src="./src/imagens/PROJETO.2.png" alt="gerador-de-senha" />
+            <h3>Gerador de Senha</h3>
+            <div class="informacoes-projeto">          
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://ronaldolisb0a.github.io/SNAKE-THE-GAME/">
+            <img src="./src/imagens/snake.png" alt="SNAKE-THE-GAME" />
+            <h3>SNAKE-THE-GAME</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://ronaldolisb0a.github.io/GAME-OF-OLD/">
+            <img src="./src/imagens/jogo da velha.png" alt="GAME-OF-OLD" />
+            <h3>Game-of-old</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/ronaldo-lisboa-40a878234/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5581997043134" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/prronaldolisboa" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/pr.ronaldolisboa/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
